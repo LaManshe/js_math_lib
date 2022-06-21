@@ -12,6 +12,7 @@ export default class Math{
             constructor(){
                 this.logging = _logging;
                 this.PI = 3.1415926535;
+                this.e = 2.7182818284;
             }
 
             //#region Простые математические функции
