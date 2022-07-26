@@ -49,6 +49,11 @@ export default class Math{
 
                 return result;
             }
+
+            //Примерно равно
+            checkApprox(num1, num2, epsilon){
+                return Math.abs(num1 - num2) < epsilon;
+            }
             //#endregion
         };
         return result;
